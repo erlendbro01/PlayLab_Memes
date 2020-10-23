@@ -1,16 +1,34 @@
 
+// Runs when submit button is pressed
+function submitButton () {
+  category = document.getElementById("user_input").value;
 
-function loadImage () {
+  if (category == "") alert("Enter an emotion (sad/happy");
+  else
+    spawnImage(category, getRandomInt(0,3),"imgPos");
+  }
 
-  alert ("Image Loader Started");
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-    
+// Spawn image from path and add to page
+function spawnImage(category, number,id) {
 
+  // Delete old image
+  if (document.getElementById("imgPos").childElementCount == 0) {
+  } else clearImages();
 
+  var x = document.createElement("IMG");
+  x.setAttribute("src", ("img/" + category + "/" + number + ".jpg"));
+  x.setAttribute("alt", category);
+  document.getElementById(id).appendChild(x);
+}
 
-function getRandomTerm() {
-  var randomIndex = Math.floor(Math.random() * chatbot.db.length);
-  currentItem = chatbot.db[randomIndex]
-  return currentItem.term;
+function clearImages() {
+  var list = document.getElementById("imgPos"); 
+  list.removeChild(list.childNodes[0]); 
+
 }

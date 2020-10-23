@@ -42,26 +42,11 @@
 ^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxooP4zhzX5Lqx_PaQICLelDzungNT-EUl_g&usqp=CAU></img>
 
 + [*] happy[*]
-- Would you like a meme for that?\n
-^ <img src=https://pbs.twimg.com/profile_images/1113929952406061056/QZdZjFUw_400x400.jpg></img>
-- Would you like a meme for that?\n
-^ <img src=https://ih1.redbubble.net/image.839413284.0422/flat,750x,075,f-pad,750x1000,f8f8f8.u14.jpg></img>
-- Would you like a meme for that?\n
-^ <img src=https://media.tenor.com/images/79d632d3d7bc4e3c6181ebdc6e4326ac/tenor.png></img>
-- Would you like a meme for that?\n
-^ <img src=https://media.tenor.com/images/7287cd13acf63ccfa11c00aabee30e7f/tenor.png></img>
-- Would you like a meme for that?\n
-^ <img src=https://media.tenor.com/images/e0d3561b78910cd2afd6b500a93c0214/tenor.gif></img>
-- Would you like a meme for that?\n
-^ <img src=https://media1.tenor.com/images/b28cad9f874c2fc34cffb7f37ea1ff97/tenor.gif?itemid=16095296></img>
-- Would you like a meme for that?\n
-^ <img src=https://media.tenor.com/images/f8a265051ef3b57ecbffbfbc1496eaeb/tenor.gif></img>
-- Would you like a meme for that?\n
-^ <img src=https://i.kym-cdn.com/entries/icons/original/000/000/142/feelsgoodman.png></img>
-- Would you like a meme for that?\n
-^ <img src=https://i.imgflip.com/1p7bq7.jpg></img>
-- Would you like a meme for that?\n
-^ <img src=https://www.pngitem.com/pimgs/m/96-966418_happy-face-meme-png-transparent-rage-faces-png.png></img>
+- Would you like a meme for that? happy!\n
+> object getRandomTerm javascript
+  return getRandomTerm();
+< object
+
 
 + [*]disgusting[*]
 - Would you like a meme for that?\n

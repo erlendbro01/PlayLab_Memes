@@ -47,6 +47,7 @@ button.mousePressed(chat);
       if(speechRec.resultValue)
       {
         let input = speechRec.resultString;
+     
         console.log(input);
         user_input.value(input);
         bot.reply('local-user', input).then(function(reply) {
@@ -58,9 +59,3 @@ button.mousePressed(chat);
     }
 }
 
-function submitButton () {
-let s = "1";
-s = document.getElementById("user_input").value;
-
-  alert(s);
-}

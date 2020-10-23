@@ -14,20 +14,33 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="libraries/p5.speech.js"></script>
     <script src="sketch.js"></script>
+    <script src="imageLoader.js"></script>
 
   </head>
   
   <body>
     <h1> Chatbot</h1>
     <p>
+
+      <!-- Image Loader -->
     say: <input id="user_input"/>
     <button onclick ="submitButton()" id="submit">submit</button>
     </p>
- 
 
 
     <p>
     reply: <span id="output"></span>
+    </p>
+
+
+    <p>
+      imgPos: <span id="imgPos"></span>
+      </p>
+
+
+           <!-- Image Loader -->
+ 
+    <button onclick ="clearImages()" id="submit">Clear Images</button>
     </p>
 
   </body>
