@@ -1,0 +1,165 @@
+
+! version = 2.0
+! sub who's = who is
+
+
++ [*]fear[*]
+> object getRandomTerm javascript
+  return getRandomTerm();
+< object
+
++ random
+- Finding a random term... <call>getRandomTerm</call>
+
++[*]angry[*]
+- Would you like a meme for that?\n
+^ <img src=https://i.kym-cdn.com/photos/images/original/001/512/899/80d.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://cheezburger.com/1598388992/anger></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.kym-cdn.com/entries/icons/facebook/000/028/924/cover2.jpg></img>
+
++ [*]sad[*]
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/xhpk1.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/3u04h5.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/aO7G0r6></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/arVz6GK></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/azmQd8q></img>
+- Would you like a meme for that?\n
+^ <img src=https://buzzbos.com/wp-content/uploads/2020/06/funny-and-depressing-memes-nihilism-sad-memes-pessimistic-memes.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://cdn.guff.com/site_0/media/33000/32021/items/9caef10272fd033d455d720d.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://ih1.redbubble.net/image.479195758.1810/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://cdn131.picsart.com/312773079244201.jpg?type=webp&to=min&r=640></img>
+- Would you like a meme for that?\n
+^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxooP4zhzX5Lqx_PaQICLelDzungNT-EUl_g&usqp=CAU></img>
+
++ [*] happy[*]
+- Would you like a meme for that?\n
+^ <img src=https://pbs.twimg.com/profile_images/1113929952406061056/QZdZjFUw_400x400.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://ih1.redbubble.net/image.839413284.0422/flat,750x,075,f-pad,750x1000,f8f8f8.u14.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/79d632d3d7bc4e3c6181ebdc6e4326ac/tenor.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/7287cd13acf63ccfa11c00aabee30e7f/tenor.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/e0d3561b78910cd2afd6b500a93c0214/tenor.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://media1.tenor.com/images/b28cad9f874c2fc34cffb7f37ea1ff97/tenor.gif?itemid=16095296></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/f8a265051ef3b57ecbffbfbc1496eaeb/tenor.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.kym-cdn.com/entries/icons/original/000/000/142/feelsgoodman.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/1p7bq7.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://www.pngitem.com/pimgs/m/96-966418_happy-face-meme-png-transparent-rage-faces-png.png></img>
+
++ [*]disgusting[*]
+- Would you like a meme for that?\n
+^ <img src=https://media1.tenor.com/images/3eeabc0a49df9b764297efc13c186f78/tenor.gif?itemid=17172294></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.pinimg.com/originals/6b/16/ed/6b16edfbdea0ddbe3c246787e56cb839.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://thumbs.gfycat.com/SlushySkinnyConey-mobile.mp4></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/7x8jb.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://pics.me.me/need-if-absolute-disgust-60252865.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://www.relatably.com/m/img/disgusted-look-memes/2f39f123a50c457e11510cfa8d0b9ec8.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.pinimg.com/originals/61/92/2d/61922da0bcc6d144eabb626d871a6b93.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://sayingimages.com/wp-content/uploads/Oh-hell-no-thats-disgusting-Disgusted-Meme.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://images3.memedroid.com/images/UPLOADED162/57cdf85930015.jpeg></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/images/400x/14731357.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://thumbs.gfycat.com/CheerfulElegantEyra-size_restricted.gif></img>
+
++ [*]surprise[*]
+- Would you like a meme for that?\n
+^ <img src=https://media1.tenor.com/images/fb21c5a0ff18e29aab890d1d1f6d6e64/tenor.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/12igo6.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.guim.co.uk/img/media/74e5a132a35ede8e1c2b8d3af3313518e2b84e70/0_0_1800_1080/500.jpg?quality=85&auto=format&fit=max&s=9bd9118a50d143be08fc2665f9d20b96></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/ojz4g.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/1qn9as.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.kym-cdn.com/entries/icons/mobile/000/012/175/dissapointed.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.makeameme.org/created/what-a-surprise-5c697c.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/dbc2cbd9899455474b5ece07b2ba841a/tenor.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.tenor.com/images/e6eb220451c51dbd12d8386f7e6c4557/tenor.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/images/17391904/surprised-happy-andy.jpg></img>
+
++ [*]trust[*]
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/2rii25.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/instances/48564593/the-list-of-people-i-trust.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxPsyQ_5JjnxfxqTM1wbkwfv7h-jqOkNSVtA&usqp=CAU></img>
+- Would you like a meme for that?\n
+^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjSSfC7reoiMMALYoBBaEeuw3xWlhi77J-ww&usqp=CAU></img>
+- Would you like a meme for that?\n
+^ <img src=https://64.media.tumblr.com/66fd628454e093c61d14a8c377d7758b/tumblr_na8okuJSHT1svxaato1_400.gifv></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.pinimg.com/originals/37/a2/f1/37a2f141e57816e532452a31b9929dac.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.pinimg.com/originals/f0/65/ba/f065ba2b73021d96166d34b8ca8a9ae0.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://media0.giphy.com/media/10dJRZUX4gzbQk/source.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/instances/59931262/when-you-got-more-trust-issues-than-drake.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/3l3i0v.jpg></img>
+
++ [*]anticipate[*]
+- Would you like a meme for that?\n
+^ <img src=https://cdn.dopl3r.com//media/memes_files/anticipation-TJVMB.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/btx8n.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.pinimg.com/originals/c9/91/08/c991085b1cc46b7a10c3d0a3bc82b7a0.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://i2.wp.com/media2.giphy.com/media/HWd7pVkijHTgI/giphy.gif></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/instances/65097547/the-anticipation-is-killing-me.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.chzbgr.com/full/7642895616/h29C535C5/the-anticipation-is-killing-me></img>
+- Would you like a meme for that?\n
+^ <img src=https://memegenerator.net/img/instances/43619645/these-are-tears-of-anticipation.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.makeameme.org/created/im-waiting-for-5c9be4.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://media.makeameme.org/created/the-anticipation-is-5baaa0.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://tse1.mm.bing.net/th?id=OIP.7DmG-9j81BzG7zDee_rJLgHaE4&pid=15.1></img>
+
+//+ *
+//- Can I help you provide me with something?
+
+//+ * 
+//% who is there
+//- <star1> who
+
+//+ *
+//% * who
+//- hahahahahaha
