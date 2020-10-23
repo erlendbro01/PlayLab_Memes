@@ -4,12 +4,26 @@
 
 
 + [*]fear[*]
-> object getRandomTerm javascript
-  return getRandomTerm();
-< object
-
-+ random
-- Finding a random term... <call>getRandomTerm</call>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/xhpk1.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://i.imgflip.com/3u04h5.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/aO7G0r6></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/arVz6GK></img>
+- Would you like a meme for that?\n
+^ <img src=https://9gag.com/gag/azmQd8q></img>
+- Would you like a meme for that?\n
+^ <img src=https://buzzbos.com/wp-content/uploads/2020/06/funny-and-depressing-memes-nihilism-sad-memes-pessimistic-memes.png></img>
+- Would you like a meme for that?\n
+^ <img src=https://cdn.guff.com/site_0/media/33000/32021/items/9caef10272fd033d455d720d.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://ih1.redbubble.net/image.479195758.1810/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg></img>
+- Would you like a meme for that?\n
+^ <img src=https://cdn131.picsart.com/312773079244201.jpg?type=webp&to=min&r=640></img>
+- Would you like a meme for that?\n
+^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxooP4zhzX5Lqx_PaQICLelDzungNT-EUl_g&usqp=CAU></img>
 
 +[*]angry[*]
 - Would you like a meme for that?\n
@@ -42,10 +56,9 @@
 ^ <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxooP4zhzX5Lqx_PaQICLelDzungNT-EUl_g&usqp=CAU></img>
 
 + [*] happy[*]
-- Would you like a meme for that? happy!\n
-> object getRandomTerm javascript
-  return getRandomTerm();
-< object
+- Would you like a meme for that?\n
+^ <img src=https://imgflip.com/s/meme/Grumpy-Cat-Happy.jpg class="meme"></img>
+
 
 
 + [*]disgusting[*]

@@ -1,8 +1,69 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+/*Erlend stuff*/
+h1.a {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  color: rgb(33, 88, 160);
+}
+
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  color: rgb(78, 78, 78);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  /*margin-left: 500px;*/
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(30, 143, 255, 0);
+  object-fit: contain;
+}
+
+.flex-container > div {
+  width: 500px;
+  text-align: center;
+}
+
+.headline {
+  color: white;
+  background-color: rgb(20, 20, 20);
+}
+
+.imageWindow {
+  color: white;
+  max-height: auto;
+  min-height: 500px;
+  object-fit: contain;
+  background-color: rgb(31, 31, 31);
+}
+
+.inputWindow {
+  color: rgb(22, 22, 22);
+  height: 100px;
+  object-fit: contain;
+  background-color: rgb(95, 95, 95);
+}
+
+.meme {
+  float: top;
+  max-width: 500px;
 }

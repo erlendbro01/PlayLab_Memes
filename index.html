@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sketch</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Sketch</title>
 
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
-    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="libraries/p5.speech.js"></script>
-    <script src="sketch.js"></script>
-    <script src="imageLoader.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  </head>
-  
-  <body>
-    <h1> Chatbot</h1>
-    <p>
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="libraries/p5.speech.js"></script>
+  <script src="sketch.js"></script>
+  <script src="imageLoader.js"></script>
 
-      <!-- Image Loader -->
-    say: <input id="user_input"/>
-    <button onclick ="submitButton()" id="submit">submit</button>
-    </p>
+</head>
+
+<body>
 
 
-    <p>
-    reply: <span id="output"></span>
-    </p>
+  <div class="flex-container">
 
 
-    <p>
-      imgPos: <span id="imgPos"></span>
+
+    <!-- Header -->
+    <div class="headline">
+      <h1 class="a"> Meme Bot 3000</h1>
+    </div>
+
+    <!-- Input and button field -->
+    <div class="inputWindow">
+      <p>
+        say: <input id="user_input" />
+        <button onclick="submitButton()" id="submit">submit</button>
+        <button onclick="clearImages()"> X </button>
       </p>
 
+    </div>
 
-           <!-- Image Loader -->
- 
-    <button onclick ="clearImages()" id="submit">Clear Images</button>
-    </p>
+    <!-- Image window -->
+    <div class="imageWindow">
+      <h2> Image preview
+        <p>
+          <span id="imgPos"></span>
+          <span id="output"></span>
+        </p>
+      </h2>
+    </div>
 
-  </body>
+
+    <!-- Flexbox -->
+  </div>
+
+
+
+
+
+
+
+</body>
+
 </html>
