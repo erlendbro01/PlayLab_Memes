@@ -7,7 +7,6 @@ function spawnMeme() {
   tag = document.getElementById("searchInput").value;
   document.getElementById("voice_input").innerHTML = "input: " + tag;
   getAPI(tag).then((data) => generateElement(data, tag));
-  console.log(arr);
 }
 
 // runs from sketch.js
@@ -65,4 +64,9 @@ function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// SAVE TIMELINE //
+function saveImages() {
+  generateTimeline(chatLog);
 }
