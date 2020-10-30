@@ -17,50 +17,63 @@
   <script src="libraries/p5.speech.js"></script>
   <script src="sketch.js"></script>
   <script src="imageLoader.js"></script>
+  <script src="api.js"></script>
 
 </head>
 
 <body>
 
-
+  <!-- FLEX Content -->
   <div class="flex-container">
 
-
-
-    <!-- Header -->
+    <!-- Headline -->
     <div class="headline">
+      <h1 class="a">MEME BOT 3000</h1>
+
 
     </div>
 
-    <!-- Input and button field -->
+    <!-- Interaction Window -->
     <div class="inputWindow">
+
+      <!-- Image search bar -->
       <p>
-        say: <input id="user_input" />
-        <button onclick="submitButton()" id="submit">submit</button>
-        <button onclick="clearImages()"> X </button>
+        <input id="searchInput" />
+
+        <button onclick="spawnMeme()"> Search </button>
+
       </p>
 
+      <!-- Voice search bar -->
+
     </div>
 
-    <!-- Image window -->
+    <div class="voiceText">
+      <h2 id="voice_input">Input: </h2>
+    </div>
+
+    <!-- Image window 
     <div class="imageWindow">
-      <h2> Image preview
-        <p>
-          <span id="imgPos"></span>
-          <span id="output"></span>
-        </p>
-      </h2>
+      <h2> Current </h2>
+      <p>
+        <span id="imgPos">
+        </span>
+      </p>
     </div>
-
-
-    <!-- Flexbox -->
+-->
+    <!-- Image window -->
+    <div class="imageTimeline">
+      <h2> Timeline </h2>
+      <p>
+        <span id="log">
+        </span>
+      </p>
+    </div>
+    <p>
+      <input id="user_input" />
+      <button id="submit">Old</button> </p>
+    <!-- FLEX END! -->
   </div>
-
-
-
-
-
-
 
 </body>
 

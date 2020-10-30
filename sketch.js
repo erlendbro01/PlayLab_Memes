@@ -38,9 +38,13 @@ function setup() {
 
       console.log(input);
       user_input.value(input);
+
+      // Display text from voice
+      document.getElementById("voice_input").innerHTML = "input: " + input;
+
       bot.reply("local-user", input).then(function (reply) {
         category = input;
-        userAction(input);
+        spawnMemeAuto(input);
 
         output.html(reply);
         speech.speak(reply);
