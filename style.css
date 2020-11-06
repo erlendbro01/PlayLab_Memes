@@ -80,6 +80,23 @@ p {
   width: 70%;
   padding: 10px;
 }
+@media only screen and (max-width: 1200px) {
+  .meme {
+    width: 90%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 44, 47);
+    object-fit: contain;
+
+    margin: auto;
+
+    /*border: 5px solid rgb(255, 0, 0);*/
+
+    width: 100%;
+  }
+}
 
 .logElement {
   object-fit: row;
